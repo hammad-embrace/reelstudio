@@ -1,12 +1,82 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reel Studio</title>
-<style>body{max-width:720px;margin:0 auto;padding:32px 16px;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1d1f24;background:#fff}
-h1{font-size:26px}h2{font-size:18px;margin-top:28px}a{color:#d6245f}.muted{color:#666;font-size:14px}</style></head><body>
-<h1>Reel Studio</h1>
-<p>Reel Studio is a personal desktop tool used by the creator behind <b>Art by HM</b> to make short vertical videos
-and publish or schedule them to their own TikTok account.</p>
-<p>It runs only on the creator's own computer. It is not a public service, and nobody else can sign up or log in.</p>
-<p>Contact: <a href="mailto:hm@technologies.dk">hm@technologies.dk</a></p>
-<p class="muted"><a href="index.html">Reel Studio</a> · <a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
-</body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reel Studio by Art by HM</title>
+<meta name="description" content="Reel Studio by Art by HM: turn long videos into vertical reels with captions and voiceover, then publish or schedule them to TikTok and Facebook.">
+<link rel="icon" href="assets/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" href="assets/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:image" content="https://hammad-embrace.github.io/reelstudio/assets/icon-512.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><img src="assets/icon-192.png" alt="Art by HM logo">Art by HM<span class="long">&nbsp;· Reel Studio</span></a>
+  <nav><a class="opt" href="./#features">Features</a><a class="opt" href="./#how">How it works</a><a class="opt" href="./#faq">FAQ</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+<main>
+<div class="wrap hero">
+  <div>
+    <h1>Turn long videos into <span class="grad">scroll-stopping reels</span></h1>
+    <p class="lead">Reel Studio is the desktop studio behind Art by HM. It finds the strongest moments in a long video, builds vertical 9:16 reels
+      with a hook headline, captions and an optional AI voiceover, and publishes or schedules them to TikTok and Facebook.</p>
+    <a class="btn main" href="#how">See how it works</a><a class="btn ghost" href="#features">Features</a>
+  </div>
+  <img class="shot" src="assets/shot-publish.jpg" alt="Reel Studio's Publish to TikTok screen: account, caption, privacy, interaction settings and schedule">
+</div>
+
+<section id="features"><div class="wrap">
+  <h2>Everything from clip to post</h2>
+  <p class="sub">One place to cut, caption, voice and publish short vertical videos.</p>
+  <div class="grid">
+    <div class="card"><div class="ico">🎯</div><h3>Smart moment picking</h3><p>Reads the subtitles of a long video and suggests the most engaging moments, each opening on a hook and ending on a peak.</p></div>
+    <div class="card"><div class="ico">📱</div><h3>Vertical 9:16 reels</h3><p>Renders 1080×1920 reels with a hook headline, the scene, burned-in captions and loudness-normalised audio.</p></div>
+    <div class="card"><div class="ico">🎙️</div><h3>Voiceover commentary</h3><p>Adds narrated commentary between clips with a natural AI voice, so reels carry real analysis instead of a straight re-upload.</p></div>
+    <div class="card"><div class="ico">✍️</div><h3>Captions in two languages</h3><p>Writes post descriptions in English and Roman Urdu, with a hook, a question for comments, a source credit and hashtags.</p></div>
+    <div class="card"><div class="ico">🚀</div><h3>Publish to TikTok</h3><p>Posts directly with your caption, privacy and interaction settings, or sends the reel to your TikTok inbox to finish in the app.</p></div>
+    <div class="card"><div class="ico">🗓️</div><h3>Schedule TikTok and Facebook</h3><p>Pick a date and time and the reel goes out on its own. Every post's status is tracked: scheduled, processing, posted or failed.</p></div>
+  </div>
+</div></section>
+
+<section id="how"><div class="wrap">
+  <h2>How it works</h2>
+  <p class="sub">From a long video to a published reel in a few minutes.</p>
+  <div class="two">
+    <div class="steps">
+      <div class="step"><div><b>Load a video</b><span>Paste a link to a long video; Reel Studio downloads it with its subtitles.</span></div></div>
+      <div class="step"><div><b>Pick and edit the moments</b><span>Accept the suggested moments or choose your own, then edit the hook, clip times and narration, with a live preview.</span></div></div>
+      <div class="step"><div><b>Build the reels</b><span>Render upload-ready 9:16 videos with captions and voiceover.</span></div></div>
+      <div class="step"><div><b>Connect your accounts</b><span>Log in with TikTok and Facebook through their official login screens. You choose exactly what Reel Studio may do.</span></div></div>
+      <div class="step"><div><b>Publish or schedule</b><span>Review the caption, choose who can see the post and when it goes out, and confirm. Reel Studio shows the result when the platform finishes processing.</span></div></div>
+    </div>
+    <img class="shot" src="assets/shot-posts.jpg" alt="Reel Studio's post list showing a TikTok inbox upload processing and a direct post marked posted">
+  </div>
+</div></section>
+
+<section id="tiktok"><div class="wrap">
+  <h2>How Reel Studio uses TikTok</h2>
+  <p class="sub">Built on TikTok's official Login Kit and Content Posting API.</p>
+  <div class="grid">
+    <div class="card"><h3>Login Kit</h3><p>You connect your account on TikTok's own login page. Reel Studio shows your display name and avatar so you always know which account will post.</p></div>
+    <div class="card"><h3>Direct Post</h3><p>Before every post you see the caption, choose who can see it (there is no default), set comments, Duet and Stitch, and confirm. Nothing is posted without your click.</p></div>
+    <div class="card"><h3>Upload to inbox</h3><p>Or send the reel to your TikTok inbox as a draft, then edit and post it yourself in the TikTok app.</p></div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>FAQ</h2>
+  <details><summary>Who can use Reel Studio?</summary><p>Reel Studio is made and used by Art by HM. It runs on the creator's own computer, and every account it posts to is connected by its owner through the platform's official login.</p></details>
+  <details><summary>Does Reel Studio post without asking?</summary><p>No. A post goes out only when you click “Post now” or set a schedule yourself, and scheduled posts can be cancelled at any time before they go out.</p></details>
+  <details><summary>What data does it store?</summary><p>Only the login tokens the platforms issue and the posting status, stored on the creator's computer. Nothing is sold or shared. See the <a href="privacy.html">Privacy Policy</a>.</p></details>
+  <details><summary>How do I disconnect my account?</summary><p>Use “Disconnect” in Reel Studio's settings, or remove the app in TikTok under Settings and privacy → Security → Manage app permissions.</p></details>
+  <details><summary>How do I get in touch?</summary><p>Email <a href="mailto:hm@technologies.dk">hm@technologies.dk</a>.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <img src="assets/icon-192.png" alt=""><span>© 2026 Art by HM · Reel Studio</span>
+  <a href="./">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a><a href="mailto:hm@technologies.dk">hm@technologies.dk</a>
+</div></footer>
+</body>
+</html>
